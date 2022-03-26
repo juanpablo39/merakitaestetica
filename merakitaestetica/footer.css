@@ -1,0 +1,39 @@
+footer{
+    padding: 40px 0;
+    background-color: var(--details-color);
+
+}
+
+.list-social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: var(--text-color);
+}
+.list-social a{
+    color: var(--text-color);
+}
+.list-social i{
+    font-size: 40px;
+}
+
+footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6px;
+    margin-bottom: 0;
+    text-align: center;
+}
+footer ul a{
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 15px 15px;
+}
+footer ul li:hover{
+    color: white;
+}

@@ -1,0 +1,42 @@
+:root{
+    --primary-color:#FBED7B;
+    --secundary-color:#FFFFFF;
+    --tertiary-color:#000000;
+    --text-color:#000000;
+    --text-color-inverse:#FFFFFF;
+    --details-color:#fbec7bd5;
+} 
+*{
+    font-family: 'Festive', cursive;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(img/logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: auto;
+}
+
+
+* ::-webkit-scrollbar{
+    background: #fbec7b91;
+    width: 10px;
+}
+* ::-webkit-scrollbar-thumb{
+    background-color: #fbed7b;
+}
+

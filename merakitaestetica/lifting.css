@@ -1,0 +1,39 @@
+.pestañas{
+    text-align: center;
+    padding-top: 4em;
+}
+
+.pestañas h1{
+    font-size: 35px;
+}
+.pestañas-title{
+    margin: 0;
+    color: var(--text-color);
+}
+.pestañas, .pestañas-info {
+    font-weight: 200;
+    font-size: 21px;
+    max-width: 350px;
+    line-height: 2;
+    margin: 0 auto;
+}
+.pestañas h3{
+    font-size: 35px;
+}
+@media screen and (min-width:950px){
+    .pestañas{
+        text-align: center;
+    }
+    .pestañas-title{
+        font-size: 390%;
+        margin: 0;
+        color: var(--text-color);
+    }
+    .pestañas-details{
+        font-size: 240%;
+        font-weight: 100;
+        max-width: 350px;
+        line-height: 1.8;
+        margin: 0 auto;
+    }
+}

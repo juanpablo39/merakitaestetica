@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2dcc797202.js"crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="depilacion.css">
+    <link rel="stylesheet" href="lifting.css">
+    <link rel="stylesheet" href="galeria.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Merakita Estetica</title>
+</head>
+<section>
+    <!--------------------NAV--------------------->
+    <header>
+        <nav>
+                <a href=""> 
+                    <h1 class="logo">Merakita</h1>
+                </a>
+
+            <ul class="enlaces-menu">
+                <li><a href="#inicio">Incio</a></li>
+                <li><a href="#depilacion">Depilacion</a></li>
+                <li><a href="#pestañas">Pestañas</a></li>
+                <li><a href="#trabajos">Trabajos</a></li>
+                <li><a href="#turnos">Turnos</a></li>
+            </ul>
+            <button class="ham"type="button">
+                <span class="br-1"></span>
+                <span class="br-2"></span>
+                <span class="br-3"></span>
+            </button>
+        </nav>
+    </header>
+    <script src="main.js"></script>
+
+    <!------------------INICIO-------------------->
+    <section class="inicio" id="inicio">
+        <div class="inicio-info">
+            <h1 class="inicio-title">Merakita</h1>
+            <p class="inicio-details">
+              Un emprendimiento ubicado en Mendoza, Argentina en donde nos enfocamos en mejorar la imagen
+              personal. Contamos con dos servicios, depilacion con dos sistemas diferentes y lifting de Pestañas
+              aunque en proximamente ampliaremos a mas servicios. Te invitamos a que nos sigas en nuestro
+              <a href="https://www.instagram.com/_merakitaestetic_/" target="_blank">Instagram</a> para que puedas estar informadx
+              de nuevos servicios y ofertas!
+            </p>
+        </div>
+    </section>
+
+    <!----------------DEPILACION------------------>
+    <section class="depilacion" id="depilacion">
+        <div class="depilacion-info">
+        <h1 class="depilacion-title">Depilacion</h1>
+        <p class="depilacion-details">
+            <h3>Sistema español</h3>
+            La depilacion con sistema español es uno de los metodos de  depilacion mas efectivo que existen en la
+            actualidad. En esta se utiliza una cera caliente hecha a base de resina de pino y miel, ingredientes que
+            evitan que la piel se irrite y que se encargan de dejarla suave y brilllante. Puede eliminar el vello
+            desde la raiz relentizando su crecimiento durante una media de 4 semanas. Se puede utilizar en casi todas 
+            las zonas del cuerpo desde zonas pequeñas hasta zonas grandes.
+            <h3>Roll on</h3>
+            Es un tratamiento de depilacion que utiiza cera desechable trabajando a temperatura ambiente termo
+            regulable. Este es 100% desechable, muy higenico e indoloro, su temperatura ayuda a retardar el crecimiento
+            del vello. Este tipo de cera se suele usar para depilar zonas amplias del cuerpo, debido a que sus bandas son
+            faciles de usar.
+        </p>
+        </div>
+    </section>
+
+    <!------------------PESTAÑAS-------------------->
+    <section class="pestañas" id="pestañas"> 
+        <div class="pestañas-info">
+        <h1 class="pestañas-title">Pestañas</h1>
+        <p class="pestañas-details">
+            <h3>Lifting</h3>
+            El lifting de pestañas es un tratamiento en el cual se utiliza unas almoadillas de silicona que 
+            estiran el pelo y lo elevan desde la raiz. Donde se consigue aumentar las pestañas de manera mas uniforme
+            y dar un efecto de pestañas mas largas y pobladas.
+            <h3>Permanente</h3>
+            La permanente de pestañas es un tratamiento en el que se utiliza un "bigudie" especial que curva las pestañas, 
+            logrando que se arqueen y se vean mas elegantes con efecto curvo bien definido. 
+        </p>
+        </div>
+    </section>
+
+    <!-----------------GALERIA---------------------->
+    <section class="galeria" id="galeria"> 
+        <h3 class="galeria-title">Trabajos</h3>
+        <div class="galeria-imagenes">
+            <article class="galeria-img">
+                <img src="img/6.jpg" alt="">
+            </article>
+            <article class="galeria-img">
+                <img src="img/5.jpg" alt="">
+            </article>
+            <article class="galeria-img">
+                <img src="img/4.jpg" alt="">
+            </article>
+            <article class="galeria-img">
+                <img src="img/3.jpg" alt="">
+            </article>
+            <article class="galeria-img">
+                <img src="img/2.jpg" alt="">
+            </article>
+            <article class="galeria-img">
+                <img src="img/1.jpg" alt="">
+            </article>
+        </div>
+    </section>
+
+    <!-------------------FORM----------------------->
+    
+    <section class="form-container" id="turnos">
+        <h3 class="form-title">Contacto</h3>
+    <div class="form">
+        <form action="https://formsubmit.io/send/">
+           <!-- <label for=""nombre">Nombre</label> -->
+            <input placeholder="Nombre" type="text" name="nombre" id="nombre">
+            <br>
+            
+            <input placeholder="Email" type="email" name="email" id="email">
+            <br>
+           <!-- <label for="mensaje">Mensaje</label> -->
+            <textarea placeholder="Que servicio desea reservar?
+             Introduzca su numero de telefono para obtener la confirmacion del turno" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Enviar" id="enviar">
+        </form>
+    </div>
+    </section>
+    <!-----form----->
+    <section class="form-container2" id="turnos">
+        <h3 class="form-title2">Contacto</h3>
+    <div class="form2">
+        <form action="https://formsubmit.io/send/">
+           <!-- <label for=""nombre">Nombre</label> -->
+            <input placeholder="Nombre" type="text" name="nombre" id="nombre2">
+            <br>
+            
+            <input placeholder="Email" type="email" name="email" id="email2">
+            <br>
+           <!-- <label for="mensaje">Mensaje</label> -->
+            <textarea placeholder="Que servicio desea reservar?
+             Introduzca su numero de telefono para obtener la confirmacion del turno" name="mensaje" id="mensaje2" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Enviar" id="enviar2">
+        </form>
+    </div>
+    </section>
+    <section class="form-container3" id="turnos3">
+        <h3 class="form-title2">Contacto</h3>
+    <div class="form2">
+        <form action="https://formsubmit.io/send/">
+           <!-- <label for=""nombre">Nombre</label> -->
+            <input placeholder="Nombre" type="text" name="nombre" id="nombre3">
+            <br>
+            
+            <input placeholder="Email" type="email" name="email" id="email3">
+            <br>
+           <!-- <label for="mensaje">Mensaje</label> -->
+            <textarea placeholder="Que servicio desea reservar?
+             Introduzca su numero de telefono para obtener la confirmacion del turno" name="mensaje" id="mensaje3" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Enviar" id="enviar3">
+        </form>
+    </div>
+    </section>
+
+    <!--------------------FOOTER------------------------->
+
+<footer>
+    <div class="list-social">
+        <a href="https://www.instagram.com/_merakitaestetic_/" target="_BLANK"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <ul class="footer-li">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#depilacion">Depilacion</a></li>
+        <li><a href="#pestañas">Pestañas</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#turnos">Turnos</a></li>
+    </ul>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
